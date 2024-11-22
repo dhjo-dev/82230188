@@ -28,7 +28,7 @@ spec:
       - name: application-properties
         configMap:
           # configmap
-          name: "82230188-configmap"
+          name: "prod-82230188-configmap"
           items:
             - key: application.yml
               path: application.yml
