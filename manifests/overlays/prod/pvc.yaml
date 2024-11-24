@@ -3,7 +3,6 @@ kind: PersistentVolumeClaim
 metadata:
   # pvc
   name: cepg-aa-std-pvc
-  namespace: "82230188"
 spec:
   accessModes:
     - ReadWriteMany

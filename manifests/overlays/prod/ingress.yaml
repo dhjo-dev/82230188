@@ -1,7 +1,6 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  namespace: "82230188"
   name: "82230188-ingress"
 spec:
   ingressClassName: ingress-internal
