@@ -24,11 +24,11 @@ spec:
       - name: "82230188-volume"
         persistentVolumeClaim:
           # pvc
-          claimName: prod-cepg-aa-std-pvc
+          claimName: cepg-aa-std-pvc
       - name: application-properties
         configMap:
           # configmap
-          name: prod-82230188-configmap
+          name: 82230188-configmap
           items:
             - key: application.yml
               path: application.yml
