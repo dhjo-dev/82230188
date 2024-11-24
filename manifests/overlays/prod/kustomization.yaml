@@ -14,3 +14,4 @@ kind: Kustomization
 images:
 - name: cepgstapacr.azurecr.io/82230188
   newTag: "202411241315"
+namespace: "82230188"
